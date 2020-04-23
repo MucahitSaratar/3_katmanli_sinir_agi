@@ -21,15 +21,15 @@ class net:
 			for elsa in xrange(len(tg)):
 				cikis = self.tahmin(tg[elsa])
 				hata = self.hatabul(tc[elsa], cikis)
-				for anan in self.bir:
-					for sayaq in xrange(len(anan)):
-						anan[sayaq] += tg[elsa][sayaq] * self.kat * self.oks * 2 * hata**(2**(-1))
-				for anan in self.iki:
-					for sayaq in xrange(len(anan)):
-						anan[sayaq] += self.o1[sayaq] * self.kat * self.oks * 2 * hata**(2**(-1))
-				for anan in self.uc:
-					for sayaq in xrange(len(anan)):
-						anan[sayaq] += self.o2[sayaq] * self.kat * self.oks * 2 * hata**(2**(-1))
+				for sayma in self.bir:
+					for sayb in xrange(len(sayma)):
+						sayma[sayaq] += tg[elsa][sayb] * self.kat * self.oks * 2 * hata**(2**(-1))
+				for sayma in self.iki:
+					for sayb in xrange(len(sayma)):
+						sayma[sayb] += self.o1[sayb] * self.kat * self.oks * 2 * hata**(2**(-1))
+				for sayma in self.uc:
+					for sayb in xrange(len(sayma)):
+						sayma[sayb] += self.o2[saysaybaq] * self.kat * self.oks * 2 * hata**(2**(-1))
 
 
 
